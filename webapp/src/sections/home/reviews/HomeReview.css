@@ -1,0 +1,18 @@
+.home-reviews-section {
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+
+.home-reviews-container {
+    max-width: 80%;
+    min-height: 480px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-reviews-text{
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,24 @@
+.home-services-section {
+    background-color: #ffffff;
+}
+
+.home-services-container {
+    max-width: 80%;
+    min-height: 480px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-services-title {
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.home-services-body {
+    text-align: justify;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "screechbank",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  },
+  "scripts": {
+    "backend": "gradlew bootRun",
+    "frontend": "npm --prefix webapp start",
+    "dev": "concurrently -k \"npm run backend\" \"npm run frontend\""
+  }
+}
